@@ -114,6 +114,41 @@ footer {
     color: white;
 }
 
+
+
+#contato button  {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+#contato  button:hover  {
+    background-color: #388E3C;
+    cursor: pointer;
+}
+
+#contato .form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+}
+
+#contato .form-control:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);
+}
+
+#contato label {
+    font-weight: 500;
+    color: #333;
+}
+
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
