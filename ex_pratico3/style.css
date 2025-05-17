@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f9f3;
+    color: #333;
+}
+
+.navbar {
+    background-color: #4caf50;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: #4caf50;
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    background-color: #e8f5e9;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.2rem;
+    color: #388e3c;
+}
+
+#sobre {
+    background-color: #e8f5e9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#catalogo {
+    background-color: #f1f8e9;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+.carousel img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+}
+
+#beneficios {
+    background-color: #fffde7;
+    font-size: 1.1rem;
+}
+
+#beneficios li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1rem;
+    border-left: 4px solid #81c784;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.blockquote-footer {
+    background-color: rgb(87, 204, 116);
+}
+
+
+
+#fale-conosco {
+    background-color: #f0f4c3;
+}
+
+#fale-conosco .btn {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#fale-conosco .btn:hover {
+    background-color: #388e3c;
+}
+
+.text-muted {
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+.slick-dots {
+    display: none;
+}
+
+.text-colored {
+    color: #4caf50;
+    list-style: none;
+    margin-left: 15px;
+}
